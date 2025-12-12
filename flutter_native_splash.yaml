@@ -1,0 +1,28 @@
+flutter_native_splash:
+  # 1. BACKGROUND COLOR
+  # This mint green hex code matches the background of your icon
+  # so they blend together seamlessly.
+  color: "#BAF5E2"
+
+  # 2. CENTER IMAGE (The Icon)
+  # Place your book stack icon here.
+  image: assets/images/icon_splash.png
+
+  # 3. BRANDING (The App Name)
+  branding: assets/images/branding.png
+  
+  # Positioning the "BiBlio" text at the bottom
+  branding_mode: bottom
+  branding_bottom_padding: 512
+
+  # 4. ANDROID 12+ CONFIGURATION
+  # Android 12 handles splash screens differently (icon in a circle).
+  android_12:
+    color: "#BAF5E2"
+    
+    # For Android 12, the icon might get cropped into a circle.
+    # Ensure your icon.png has enough padding around the books.
+    image: assets/images/icon_splash.png
+    
+    # Branding support on Android 12+
+    branding: assets/images/branding.png
